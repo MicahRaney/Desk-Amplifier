@@ -3632,7 +3632,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8-16_W7.62mm"
 			(at 146.05 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4605,7 +4605,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
 			(at 199.39 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5008,7 +5008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
 			(at 181.61 63.8048 0)
 			(hide yes)
 			(show_name no)
@@ -5722,7 +5722,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
 			(at 219.4052 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -5860,9 +5860,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d92c1d28-2a74-4d23-b1f3-18d43e06e057")
 		(property "Reference" "U2"
-			(at 242.57 92.71 0)
+			(at 146.05 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5881,7 +5882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8-16_W7.62mm"
 			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6062,7 +6063,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_3x5.3"
 			(at 181.61 49.8348 0)
 			(hide yes)
 			(show_name no)
@@ -6298,7 +6299,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8-16_W7.62mm"
 			(at 247.65 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6396,7 +6397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8-16_W7.62mm"
 			(at 247.65 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -6496,7 +6497,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8-16_W7.62mm"
 			(at 248.92 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -6745,7 +6746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8-16_W7.62mm"
 			(at 262.89 90.17 0)
 			(hide yes)
 			(show_name no)
