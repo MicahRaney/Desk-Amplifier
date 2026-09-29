@@ -1664,145 +1664,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+2V5"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+2V5"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+2V5\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+2V5_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+2V5_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -2174,106 +2035,34 @@
 		)
 	)
 	(junction
-		(at 66.04 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04fa94ac-f163-49c2-bf5b-3f5f7b78e6fa")
-	)
-	(junction
 		(at 223.52 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0628189c-a077-4d48-8b8c-4a4331157b3d")
 	)
 	(junction
-		(at 45.72 93.98)
+		(at 138.43 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "093424ad-857e-4c21-b813-a0aecb537523")
+		(uuid "073e177d-00f5-4f49-a42d-c8cab496d10d")
 	)
 	(junction
-		(at 45.72 167.64)
+		(at 246.38 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b0b2086-84c8-47a4-a841-724908a5945b")
+		(uuid "12cf08c6-3251-4c14-b8f9-8b0f02225cd9")
 	)
 	(junction
-		(at 46.99 33.02)
+		(at 115.57 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0b5b7899-8d58-4774-8bef-b7dbba5552b9")
+		(uuid "2e15eb64-6607-407a-9952-dc9fbec9730e")
 	)
 	(junction
-		(at 260.35 97.79)
+		(at 102.87 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "128b9c61-393e-45d1-8059-3f84d39a2cd0")
-	)
-	(junction
-		(at 45.72 154.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ebaa043-d31a-462a-a4a7-3b39ab2b4754")
-	)
-	(junction
-		(at 138.43 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2144583b-9fa3-415f-a647-c2dcc378fb05")
-	)
-	(junction
-		(at 237.49 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b4159c7-965c-4c5b-88b5-76d475e563b8")
-	)
-	(junction
-		(at 67.31 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3207be51-6a1f-49a1-a8af-ee6a56c4565e")
-	)
-	(junction
-		(at 67.31 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32663ff7-a83c-47ec-af1e-592dc0e489c8")
-	)
-	(junction
-		(at 113.03 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3970142f-5c4e-4d86-8681-5027c695a68e")
-	)
-	(junction
-		(at 66.04 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50cbb942-afa2-4647-ae79-8f0a871eb1a0")
-	)
-	(junction
-		(at 220.98 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5491c796-c357-4ad3-8484-9bdfc6c5423a")
-	)
-	(junction
-		(at 85.09 152.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "55167778-9c06-46fe-ac89-633e11e1d89b")
-	)
-	(junction
-		(at 88.9 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5a5af2a0-7727-484c-bff4-03f1c0fd2c14")
-	)
-	(junction
-		(at 248.92 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ca6a645-2d36-427c-b083-7531a5e75b1d")
+		(uuid "2fb4e890-c6e7-46c6-8689-fe301e532bc6")
 	)
 	(junction
 		(at 232.41 82.55)
@@ -2282,22 +2071,10 @@
 		(uuid "67cfa1da-a9b1-44eb-86ee-804b7fc2596f")
 	)
 	(junction
-		(at 118.11 66.04)
+		(at 138.43 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "70d0fd4f-d56e-46c1-92df-0242a14e2ef9")
-	)
-	(junction
-		(at 85.09 91.44)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7707fc73-3f9c-4370-8e58-059512d0d864")
-	)
-	(junction
-		(at 237.49 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "79137682-f196-4281-8fc8-2d2358c94a79")
+		(uuid "6d8c954d-3053-4825-ab0b-4fa504c5547f")
 	)
 	(junction
 		(at 218.44 130.81)
@@ -2306,34 +2083,10 @@
 		(uuid "7a5ce169-a3ed-4b0c-bc1e-b1bb880af460")
 	)
 	(junction
-		(at 138.43 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e9f152a-6e33-480e-9f3e-50706ed48c6b")
-	)
-	(junction
-		(at 91.44 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fb08161-6a1e-4040-a07f-3d49289d6cd3")
-	)
-	(junction
-		(at 114.3 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ff35754-742d-4b57-97ba-84ecffde71b1")
-	)
-	(junction
 		(at 232.41 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8714b5e5-1069-4f51-9280-9178e67488fb")
-	)
-	(junction
-		(at 248.92 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89f3f1f5-bae8-4d2b-b409-33a8cda01f8b")
 	)
 	(junction
 		(at 223.52 82.55)
@@ -2342,34 +2095,22 @@
 		(uuid "8d121f71-c709-4045-ac90-80d85a9b60d6")
 	)
 	(junction
-		(at 45.72 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f914446-0f45-4117-b72d-86cb439b5ec8")
-	)
-	(junction
-		(at 86.36 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8fb6ae87-5446-4e02-b93a-825e1b7a4268")
-	)
-	(junction
-		(at 66.04 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "918f273b-337c-4e31-8e8c-6c2b98f5d966")
-	)
-	(junction
-		(at 66.04 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97668c88-599d-4c3b-b2c7-ed72748bbec6")
-	)
-	(junction
 		(at 153.67 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5da45c8-e57a-430f-b57b-081dd28965f6")
+	)
+	(junction
+		(at 102.87 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c31e9a5a-deaf-4827-8412-2838256d100a")
+	)
+	(junction
+		(at 246.38 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c67001f1-f80a-47bf-93bd-b45718508088")
 	)
 	(junction
 		(at 212.09 140.97)
@@ -2378,34 +2119,10 @@
 		(uuid "ca802ec9-4e86-4993-b561-2ade1a70381e")
 	)
 	(junction
-		(at 138.43 54.61)
+		(at 234.95 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ca931576-07f9-4aa5-9806-f39c11ba08ac")
-	)
-	(junction
-		(at 260.35 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cfcbd8eb-af10-4448-8ad1-90cee4af5a48")
-	)
-	(junction
-		(at 138.43 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d337da6c-6732-41a9-a841-a88b4b400995")
-	)
-	(junction
-		(at 46.99 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d880ec33-2d85-4a0a-b060-96a24b717899")
-	)
-	(junction
-		(at 87.63 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0c556a4-d866-489c-9ec9-65df6239633d")
+		(uuid "d93ef573-8bb7-4287-a22e-6806718d9aaf")
 	)
 	(junction
 		(at 153.67 87.63)
@@ -2419,75 +2136,65 @@
 		(color 0 0 0 0)
 		(uuid "e61bdcb5-ea95-46ed-9ef5-8ae13a15dfaa")
 	)
-	(junction
-		(at 116.84 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe3aa82d-2c55-4bca-b251-180f74c44b68")
-	)
-	(no_connect
-		(at 76.2 182.88)
-		(uuid "226a7fe6-f282-4aa3-b619-5d3c2a917ac5")
-	)
-	(no_connect
-		(at 76.2 109.22)
-		(uuid "497075b3-1998-4c09-92ad-3d3f62d82b2b")
-	)
-	(no_connect
-		(at 76.2 121.92)
-		(uuid "5380ccd3-263e-4765-9775-6a0f6f813bf5")
-	)
-	(no_connect
-		(at 76.2 170.18)
-		(uuid "7cc77ccb-c67e-4f2d-9191-5c00cb550d85")
-	)
-	(no_connect
-		(at 77.47 48.26)
-		(uuid "f314e36f-5c43-48fb-8c5a-a89188f68c6b")
-	)
-	(no_connect
-		(at 77.47 60.96)
-		(uuid "f64ff356-b493-4f10-b2cc-9f3a09f7098c")
-	)
 	(wire
 		(pts
-			(xy 91.44 187.96) (xy 91.44 191.77)
+			(xy 57.15 93.98) (xy 72.39 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00753e76-e171-486a-9280-a8831cbf5516")
+		(uuid "007daab8-6c96-4497-b9b8-0149b0ebf24e")
 	)
 	(wire
 		(pts
-			(xy 87.63 114.3) (xy 87.63 127)
+			(xy 66.04 54.61) (xy 66.04 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "049aad4b-c28c-4b8b-a73f-619a0d2ef29a")
+		(uuid "06c73043-f72b-4506-a943-a0eb0d52c431")
 	)
 	(wire
 		(pts
-			(xy 72.39 44.45) (xy 67.31 44.45)
+			(xy 64.77 135.89) (xy 72.39 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "076303de-e09e-410d-b77a-68e2cac9c629")
+		(uuid "0d24517a-f36b-4f3f-97d4-64470db1b39b")
 	)
 	(wire
 		(pts
-			(xy 114.3 30.48) (xy 138.43 30.48)
+			(xy 97.79 50.8) (xy 102.87 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0f2c9d24-7577-4e4b-8f95-87529166b895")
+	)
+	(wire
+		(pts
+			(xy 77.47 119.38) (xy 90.17 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f63b89b-461e-4b92-96f2-b3af746b2e62")
+	)
+	(wire
+		(pts
+			(xy 77.47 50.8) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e0493a-147c-4e6a-a51d-61cd55d0aec3")
 	)
 	(wire
 		(pts
@@ -2501,7 +2208,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 82.55) (xy 260.35 82.55)
+			(xy 223.52 82.55) (xy 246.38 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2511,23 +2218,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 143.51) (xy 66.04 149.86)
+			(xy 97.79 119.38) (xy 102.87 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14266a73-ba7d-4569-a345-2ac20fd7afcf")
+		(uuid "16d239c6-e219-4a75-83e6-891acdd9d44a")
 	)
 	(wire
 		(pts
-			(xy 69.85 130.81) (xy 72.39 130.81)
+			(xy 246.38 82.55) (xy 260.35 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14c6c2ac-4a4a-426f-86a8-3483f887160a")
+		(uuid "194e6be3-018f-4b1a-8198-05a7a6470296")
 	)
 	(wire
 		(pts
@@ -2541,33 +2248,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 187.96) (xy 95.25 187.96)
+			(xy 97.79 132.08) (xy 115.57 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f57254c-2efc-483c-a973-35102324ea1d")
+		(uuid "1c97a161-ef05-4e46-b944-ae257940ab98")
 	)
 	(wire
 		(pts
-			(xy 29.21 82.55) (xy 29.21 91.44)
+			(xy 43.18 95.25) (xy 34.29 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fbbc112-1177-478a-affd-c0e8970a26e4")
-	)
-	(wire
-		(pts
-			(xy 43.18 106.68) (xy 45.72 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ff7ad36-4ca3-4c37-b625-07b10a1a0c92")
+		(uuid "1efa097b-3d63-4367-985b-031fee828a0e")
 	)
 	(wire
 		(pts
@@ -2581,47 +2278,57 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 93.98) (xy 55.88 93.98)
+			(xy 97.79 85.09) (xy 102.87 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "26428ab8-f57a-4d67-8d80-89006708c672")
+		(uuid "21bd5b52-fb20-4c2e-a339-58c2e9a0027e")
 	)
 	(wire
 		(pts
-			(xy 101.6 152.4) (xy 114.3 152.4)
+			(xy 64.77 101.6) (xy 72.39 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "275bf412-e579-4f4c-b3a9-bf0735d7ff7d")
+		(uuid "2393aa7e-5850-465f-bcd2-3616161c9f2e")
 	)
 	(wire
 		(pts
-			(xy 218.44 130.81) (xy 220.98 130.81)
+			(xy 77.47 63.5) (xy 90.17 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "287ac62f-4642-4c2c-90aa-a64c125b9f57")
+		(uuid "2462a083-66fd-48ee-bbe7-db1076c7e3aa")
 	)
 	(wire
 		(pts
-			(xy 44.45 33.02) (xy 46.99 33.02)
+			(xy 43.18 129.54) (xy 34.29 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "29ed9cff-10e5-4dd3-9e4b-172bdfa82d47")
+		(uuid "2812e440-8b13-42b1-ad25-8b903f992cfc")
 	)
 	(wire
 		(pts
-			(xy 138.43 64.77) (xy 138.43 54.61)
+			(xy 72.39 123.19) (xy 64.77 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f33465-077a-4c93-99b8-4d35256bfd7f")
+	)
+	(wire
+		(pts
+			(xy 138.43 54.61) (xy 138.43 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2631,63 +2338,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 45.72) (xy 59.69 57.15)
+			(xy 34.29 132.08) (xy 34.29 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2d9dbb16-0010-4dac-aa55-20931e1c20bb")
-	)
-	(wire
-		(pts
-			(xy 91.44 175.26) (xy 91.44 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee6183f-f3a1-4dab-8852-ea87070f8459")
-	)
-	(wire
-		(pts
-			(xy 220.98 130.81) (xy 224.79 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304f4a9f-f1c0-40f7-ba6c-77e939832e4a")
-	)
-	(wire
-		(pts
-			(xy 113.03 91.44) (xy 113.03 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3103c33c-9885-4cc1-ab19-14bbcfa34e9e")
-	)
-	(wire
-		(pts
-			(xy 71.12 67.31) (xy 71.12 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "316092ea-5364-482f-ab86-d0e2a3429b3b")
-	)
-	(wire
-		(pts
-			(xy 45.72 93.98) (xy 45.72 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31db6f45-b4ce-4e9c-a5f7-973d0cd9ce96")
+		(uuid "2d6fae93-5c90-4743-aeb7-51bd3a059d28")
 	)
 	(wire
 		(pts
@@ -2701,7 +2358,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 22.86) (xy 30.48 30.48)
+			(xy 36.83 50.8) (xy 36.83 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2721,97 +2378,57 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 55.88) (xy 46.99 60.96)
+			(xy 234.95 130.81) (xy 234.95 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "37108d51-983b-4769-9a43-9fb8f22dd486")
+		(uuid "3676ada9-9ae2-4d97-b21b-1c2f7d051fd5")
 	)
 	(wire
 		(pts
-			(xy 35.56 93.98) (xy 26.67 93.98)
+			(xy 50.8 129.54) (xy 50.8 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3785f3ba-e862-4dfd-aea6-f69f0cb4e926")
+		(uuid "37ec00a1-2953-4d81-9f2f-f1331c2e8f35")
 	)
 	(wire
 		(pts
-			(xy 45.72 106.68) (xy 45.72 109.22)
+			(xy 240.03 142.24) (xy 240.03 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3849b741-6d56-4829-98a9-85c1795102ac")
+		(uuid "3ad16933-460d-4795-a6d4-d655e621bc86")
 	)
 	(wire
 		(pts
-			(xy 45.72 106.68) (xy 50.8 106.68)
+			(xy 102.87 54.61) (xy 138.43 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3c0f4fb3-6fdc-4719-acf8-3112551dea6a")
+		(uuid "45861384-e2ce-4f37-ae3e-0803b1401ea5")
 	)
 	(wire
 		(pts
-			(xy 69.85 189.23) (xy 76.2 189.23)
+			(xy 234.95 130.81) (xy 240.03 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d33aa43-4a7e-4ef7-b464-6084f497b3de")
+		(uuid "48f9c8e3-5f7b-4bf9-a4cd-d64c05f7bd4b")
 	)
 	(wire
 		(pts
-			(xy 101.6 91.44) (xy 113.03 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ebcf7e2-498b-4b50-8cac-d66b75aa55d1")
-	)
-	(wire
-		(pts
-			(xy 63.5 154.94) (xy 66.04 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44f9c885-a503-435a-b7fe-97dce5e054ed")
-	)
-	(wire
-		(pts
-			(xy 77.47 36.83) (xy 86.36 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46a19fc7-9835-458d-a0ad-89160ca442a2")
-	)
-	(wire
-		(pts
-			(xy 67.31 57.15) (xy 67.31 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c45b727-c5c8-4c83-ab66-c5dd8d044429")
-	)
-	(wire
-		(pts
-			(xy 27.94 35.56) (xy 27.94 45.72)
+			(xy 34.29 63.5) (xy 34.29 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2821,33 +2438,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 82.55) (xy 66.04 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e9ffc8e-530a-4e64-a173-597320fdef51")
-	)
-	(wire
-		(pts
-			(xy 27.94 30.48) (xy 30.48 30.48)
+			(xy 34.29 58.42) (xy 36.83 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4f10f4b8-2cc7-4dfc-9c29-969440d5ddcc")
-	)
-	(wire
-		(pts
-			(xy 71.12 105.41) (xy 66.04 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f46d183-adad-425c-b227-81f057e72d3a")
 	)
 	(wire
 		(pts
@@ -2861,26 +2458,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 33.02) (xy 71.12 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "513011dc-f797-4387-9183-7b19df4ddc0f")
-	)
-	(wire
-		(pts
-			(xy 45.72 143.51) (xy 45.72 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "540aa16e-2d94-40ef-8508-f063c94746f5")
-	)
-	(wire
-		(pts
 			(xy 153.67 64.77) (xy 149.86 64.77)
 		)
 		(stroke
@@ -2891,83 +2468,23 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 106.68) (xy 58.42 118.11)
+			(xy 50.8 81.28) (xy 72.39 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5c5326c0-d15b-42b0-9e9f-8e8998c1ce38")
+		(uuid "66452e54-166f-4e89-91ef-986305481114")
 	)
 	(wire
 		(pts
-			(xy 66.04 194.31) (xy 76.2 194.31)
+			(xy 255.27 154.94) (xy 255.27 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e179fb9-c2cf-4c39-9c04-cd4fe4798c84")
-	)
-	(wire
-		(pts
-			(xy 67.31 57.15) (xy 72.39 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60704175-d660-4b5c-b130-ebc7afd834b8")
-	)
-	(wire
-		(pts
-			(xy 260.35 82.55) (xy 273.05 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "636946ae-cfbc-455c-ba09-07e1c1d50802")
-	)
-	(wire
-		(pts
-			(xy 67.31 27.94) (xy 71.12 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64a729c4-33d3-457b-b733-e44a2bbd4f30")
-	)
-	(wire
-		(pts
-			(xy 71.12 166.37) (xy 66.04 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "650f1563-2e1a-4b61-ab4a-c39c47c379fc")
-	)
-	(wire
-		(pts
-			(xy 45.72 167.64) (xy 45.72 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "664df965-3e2b-4ac2-b07c-28a2b8952afa")
-	)
-	(wire
-		(pts
-			(xy 44.45 45.72) (xy 46.99 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66818fc7-5dce-4061-b39b-a23b4992f35d")
+		(uuid "66a7151c-2ded-4ccb-a208-fd9f4db814bc")
 	)
 	(wire
 		(pts
@@ -2981,53 +2498,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 88.9) (xy 69.85 88.9)
+			(xy 34.29 107.95) (xy 43.18 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "689ee623-a51a-46ad-8b58-6646c762ec1f")
+		(uuid "6fa2aed8-bf7e-48b9-9c0e-7497bb560a43")
 	)
 	(wire
 		(pts
-			(xy 46.99 33.02) (xy 57.15 33.02)
+			(xy 36.83 85.09) (xy 36.83 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a7f783e-746d-4a39-8e32-03f60f0cef26")
-	)
-	(wire
-		(pts
-			(xy 26.67 106.68) (xy 35.56 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b4ea0af-6bfc-470c-b3f0-d4198f8faeb4")
-	)
-	(wire
-		(pts
-			(xy 45.72 177.8) (xy 45.72 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d91b6e4-e6dc-4890-9a5b-a761697e08a8")
-	)
-	(wire
-		(pts
-			(xy 87.63 127) (xy 95.25 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71555ae1-d4e8-4ec9-b4ec-6a5d11c7faef")
+		(uuid "7179831b-ed8a-4136-b933-c6ed4fa26053")
 	)
 	(wire
 		(pts
@@ -3041,13 +2528,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 179.07) (xy 66.04 194.31)
+			(xy 135.89 78.74) (xy 135.89 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73a0d07f-44b0-4cc8-8160-8029203bff37")
+		(uuid "721a211a-ce69-4e61-98ba-a93d85ee2381")
+	)
+	(wire
+		(pts
+			(xy 34.29 97.79) (xy 34.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72f4b7cd-5238-48bf-8a40-367b4302b782")
 	)
 	(wire
 		(pts
@@ -3071,53 +2568,53 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 66.04) (xy 118.11 187.96)
+			(xy 50.8 95.25) (xy 50.8 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79087d7a-6bf1-4906-b94f-0da6187445f7")
+		(uuid "7951f760-718b-41bd-af17-3a3edb8895ca")
 	)
 	(wire
 		(pts
-			(xy 58.42 118.11) (xy 66.04 118.11)
+			(xy 115.57 97.79) (xy 115.57 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7915a737-6392-459a-916f-be7ab48c46b4")
+		(uuid "7a581008-06ed-419f-9f67-1821e9b99a21")
 	)
 	(wire
 		(pts
-			(xy 102.87 187.96) (xy 118.11 187.96)
+			(xy 34.29 127) (xy 36.83 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7925ece6-4fe0-481b-b03a-844d24c2b187")
+		(uuid "7ad782d6-0b11-4157-96a6-e0d7701963b2")
 	)
 	(wire
 		(pts
-			(xy 43.18 93.98) (xy 45.72 93.98)
+			(xy 50.8 60.96) (xy 50.8 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79322b12-c507-412b-b29d-9b7ca5ee6995")
+		(uuid "7afdd02e-3f1f-44e9-abe2-58dad555fd5f")
 	)
 	(wire
 		(pts
-			(xy 66.04 149.86) (xy 69.85 149.86)
+			(xy 50.8 142.24) (xy 57.15 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79ea61ea-86ca-4c50-97d7-d0d59a0a2018")
+		(uuid "7c78256e-62bc-4b7b-831d-00b25dae577f")
 	)
 	(wire
 		(pts
@@ -3131,133 +2628,73 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 175.26) (xy 91.44 175.26)
+			(xy 72.39 54.61) (xy 66.04 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d98f9d9-2772-4ac4-b119-5460369bfa86")
+		(uuid "7d8655c1-b083-4682-af25-e43dfc9b32ea")
 	)
 	(wire
 		(pts
-			(xy 69.85 128.27) (xy 69.85 130.81)
+			(xy 72.39 69.85) (xy 72.39 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82123346-49e4-4cfe-97f9-d0e8c1e456e0")
+		(uuid "7ede1c63-0251-41c8-8d64-31314b083a07")
 	)
 	(wire
 		(pts
-			(xy 43.18 154.94) (xy 45.72 154.94)
+			(xy 64.77 123.19) (xy 64.77 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8238a94e-1e27-402b-af02-513277e877ce")
+		(uuid "87601207-6f4e-40c9-8101-8f30b55f8e20")
 	)
 	(wire
 		(pts
-			(xy 85.09 97.79) (xy 85.09 91.44)
+			(xy 115.57 97.79) (xy 138.43 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82601591-43bd-4640-ae5b-53ad37374422")
+		(uuid "8b4717fe-f34d-46c6-99bd-d6e8826961c1")
 	)
 	(wire
 		(pts
-			(xy 66.04 135.89) (xy 72.39 135.89)
+			(xy 64.77 88.9) (xy 64.77 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8496b85c-911e-4907-a635-721711aa1a12")
+		(uuid "8b720b53-19d4-4254-957b-525395483e3d")
 	)
 	(wire
 		(pts
-			(xy 104.14 66.04) (xy 116.84 66.04)
+			(xy 57.15 142.24) (xy 57.15 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "853c8cf6-4e06-4684-b35e-31a1b536acc1")
+		(uuid "8bd92244-f288-4410-a8d1-107149ad43f9")
 	)
 	(wire
 		(pts
-			(xy 26.67 157.48) (xy 26.67 167.64)
+			(xy 57.15 107.95) (xy 57.15 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "855e4820-2f68-4cf8-8b80-f840a8be0243")
-	)
-	(wire
-		(pts
-			(xy 76.2 101.6) (xy 76.2 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85f50060-2af5-4fb5-9de2-f3c934c30177")
-	)
-	(wire
-		(pts
-			(xy 46.99 33.02) (xy 46.99 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8633ca3c-1e83-4cf4-bed6-e6717061d296")
-	)
-	(wire
-		(pts
-			(xy 76.2 158.75) (xy 85.09 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87bffd76-1f89-4419-9564-6588fa2d91a7")
-	)
-	(wire
-		(pts
-			(xy 67.31 74.93) (xy 73.66 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "888c88b2-9660-473f-9a85-e203e59a9b2f")
-	)
-	(wire
-		(pts
-			(xy 43.18 167.64) (xy 45.72 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d12c561-ad66-42c1-8efa-e1f8685971d0")
-	)
-	(wire
-		(pts
-			(xy 88.9 66.04) (xy 88.9 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d5c8f1e-cacb-4f7b-b02a-143b3042eb87")
+		(uuid "8c1bc977-6760-4075-b24e-abdfff8e799d")
 	)
 	(wire
 		(pts
@@ -3271,7 +2708,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 66.04) (xy 138.43 66.04)
+			(xy 97.79 63.5) (xy 115.57 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3281,43 +2718,13 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 127) (xy 87.63 133.35)
+			(xy 50.8 107.95) (xy 57.15 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e38379c-e8ff-4838-876f-ac77db6d5a3a")
-	)
-	(wire
-		(pts
-			(xy 71.12 69.85) (xy 73.66 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5b7122-e2f4-43ee-889f-21b2585417a1")
-	)
-	(wire
-		(pts
-			(xy 66.04 105.41) (xy 66.04 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9059f5ad-36ef-4329-b3e8-f448742350fc")
-	)
-	(wire
-		(pts
-			(xy 45.72 116.84) (xy 45.72 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90bcfe40-182e-4c33-a4f0-4c6c3f8d3383")
+		(uuid "8f2407d6-6e9d-4760-8882-1712e7cd4a15")
 	)
 	(wire
 		(pts
@@ -3331,103 +2738,53 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 93.98) (xy 69.85 93.98)
+			(xy 66.04 69.85) (xy 72.39 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97714af4-8e81-4ace-93bb-d572c7346753")
+		(uuid "a012ff68-2efa-439f-b2c0-6be2661bb3b5")
 	)
 	(wire
 		(pts
-			(xy 76.2 97.79) (xy 85.09 97.79)
+			(xy 77.47 132.08) (xy 90.17 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a9018cb-f5ce-40e8-af3a-9d61b8335321")
+		(uuid "a1845b41-3dd5-4645-b0d9-360998276312")
 	)
 	(wire
 		(pts
-			(xy 86.36 30.48) (xy 95.25 30.48)
+			(xy 218.44 130.81) (xy 234.95 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9aff8e91-b936-4820-a243-9f5b2c388041")
+		(uuid "a568c8d4-a9fb-4ac8-96a8-9cf5010868d0")
 	)
 	(wire
 		(pts
-			(xy 77.47 53.34) (xy 88.9 53.34)
+			(xy 255.27 142.24) (xy 240.03 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9bc0fee2-5f78-424c-9be9-953b19c3a789")
+		(uuid "a685c053-da31-4845-81df-bfebc6e5bd76")
 	)
 	(wire
 		(pts
-			(xy 26.67 152.4) (xy 29.21 152.4)
+			(xy 77.47 97.79) (xy 90.17 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e48f032-a41b-4082-843b-96fa61dce1df")
-	)
-	(wire
-		(pts
-			(xy 45.72 167.64) (xy 50.8 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a02547cd-d208-4b7c-9b0a-d73bbb42218a")
-	)
-	(wire
-		(pts
-			(xy 76.2 114.3) (xy 87.63 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a38f2c62-7ff5-4c0e-bc01-a2c65426b9aa")
-	)
-	(wire
-		(pts
-			(xy 85.09 152.4) (xy 93.98 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3ab4e49-20d7-4592-a785-2bf29ff99b48")
-	)
-	(wire
-		(pts
-			(xy 138.43 66.04) (xy 138.43 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a69d7650-675d-4ed6-8386-43de0b0db10a")
-	)
-	(wire
-		(pts
-			(xy 85.09 91.44) (xy 93.98 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8a94bf7-1b8a-4ded-9ad6-20a5fcaae9a1")
+		(uuid "a7ee882f-ee12-40b8-b607-2c966a5ffbdc")
 	)
 	(wire
 		(pts
@@ -3441,123 +2798,43 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 49.53) (xy 138.43 54.61)
+			(xy 50.8 115.57) (xy 72.39 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a8be60a6-c3fc-4b2d-bc94-524568fb5e24")
+		(uuid "aa2f1274-709c-4400-987b-64cd4eaa5fac")
 	)
 	(wire
 		(pts
-			(xy 45.72 82.55) (xy 45.72 83.82)
+			(xy 34.29 92.71) (xy 36.83 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a93b0aa3-f1c7-4ce4-8af6-f4f911862813")
+		(uuid "aef1f5e5-1d5a-4b07-b450-4cccb00feab1")
 	)
 	(wire
 		(pts
-			(xy 29.21 143.51) (xy 29.21 152.4)
+			(xy 255.27 133.35) (xy 255.27 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a94a705a-a254-467c-ba64-0154a2295e57")
+		(uuid "b6c243c4-52bf-4d83-8303-48080efcd153")
 	)
 	(wire
 		(pts
-			(xy 66.04 118.11) (xy 71.12 118.11)
+			(xy 57.15 73.66) (xy 57.15 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ac4153ff-3036-4919-adec-5f4f74f803ca")
-	)
-	(wire
-		(pts
-			(xy 260.35 97.79) (xy 273.05 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af8374cf-4a4e-4a1a-b299-760cef5ae422")
-	)
-	(wire
-		(pts
-			(xy 88.9 66.04) (xy 96.52 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b04cabad-8fab-4e96-9282-8043765e2816")
-	)
-	(wire
-		(pts
-			(xy 58.42 179.07) (xy 66.04 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2a5e320-4d5b-4f89-a536-6f943145abac")
-	)
-	(wire
-		(pts
-			(xy 58.42 167.64) (xy 58.42 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2b8a452-e4b5-4609-ab28-a75b2e85d44a")
-	)
-	(wire
-		(pts
-			(xy 116.84 127) (xy 102.87 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b36422ad-4eaa-42d0-a6e3-bb050aa1af28")
-	)
-	(wire
-		(pts
-			(xy 45.72 154.94) (xy 45.72 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4e1604f-c915-49b1-869c-91df79e18760")
-	)
-	(wire
-		(pts
-			(xy 63.5 93.98) (xy 66.04 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5ae197a-bdab-49b3-8720-9712e306110d")
-	)
-	(wire
-		(pts
-			(xy 66.04 166.37) (xy 66.04 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b6cf86e9-759b-4078-81e5-21af04d5a910")
+		(uuid "b6c678fe-664d-4a14-bd8a-f1ac663530bd")
 	)
 	(wire
 		(pts
@@ -3568,6 +2845,16 @@
 			(type default)
 		)
 		(uuid "b6f969a6-01fd-460f-aab9-bd7183e962a0")
+	)
+	(wire
+		(pts
+			(xy 50.8 73.66) (xy 57.15 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77b5af3-b49a-4d84-a81a-85a4c7c847d9")
 	)
 	(wire
 		(pts
@@ -3591,16 +2878,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 154.94) (xy 55.88 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bae3db50-e7cc-4033-9e10-40a72991a37e")
-	)
-	(wire
-		(pts
 			(xy 222.25 87.63) (xy 223.52 87.63)
 		)
 		(stroke
@@ -3611,13 +2888,23 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 45.72) (xy 52.07 45.72)
+			(xy 97.79 97.79) (xy 115.57 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bef20511-d896-4407-a5f0-3d377d7c50e8")
+		(uuid "c0451eaa-b692-4a7b-a3d5-d377ce812282")
+	)
+	(wire
+		(pts
+			(xy 246.38 97.79) (xy 260.35 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07c885d-0d9f-4a91-9d2d-54abbf507ef8")
 	)
 	(wire
 		(pts
@@ -3631,16 +2918,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 118.11) (xy 66.04 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1d744fd-c659-4994-be4d-87cc4f57ed29")
-	)
-	(wire
-		(pts
 			(xy 135.89 44.45) (xy 135.89 49.53)
 		)
 		(stroke
@@ -3648,26 +2925,6 @@
 			(type default)
 		)
 		(uuid "c20002b7-103c-47ac-84d3-5d6dc1774bba")
-	)
-	(wire
-		(pts
-			(xy 64.77 33.02) (xy 67.31 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4b1ad5e-74a1-451a-93d2-cccec7dc4a2e")
-	)
-	(wire
-		(pts
-			(xy 138.43 30.48) (xy 138.43 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e3a2fa-2b00-4975-8ac3-43755fc316c9")
 	)
 	(wire
 		(pts
@@ -3681,13 +2938,23 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 154.94) (xy 26.67 154.94)
+			(xy 102.87 54.61) (xy 102.87 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c9ef9c23-27ee-4c13-ae1c-fdcf122addfc")
+		(uuid "c8dbd776-534d-452f-a2ac-afb728188f03")
+	)
+	(wire
+		(pts
+			(xy 240.03 162.56) (xy 240.03 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cafd5c8a-204f-4633-8ee8-5238594a28aa")
 	)
 	(wire
 		(pts
@@ -3701,26 +2968,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 36.83) (xy 86.36 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc126c5a-5351-4ee1-945a-4f5f2260833c")
-	)
-	(wire
-		(pts
-			(xy 66.04 154.94) (xy 69.85 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdb7a5f4-fbd3-4043-b6c2-1a6365b4a941")
-	)
-	(wire
-		(pts
 			(xy 212.09 130.81) (xy 218.44 130.81)
 		)
 		(stroke
@@ -3731,13 +2978,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 57.15) (xy 67.31 57.15)
+			(xy 115.57 132.08) (xy 115.57 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d1038fcd-bc86-4b19-80c2-79d61e22f662")
+		(uuid "d14e5255-ac96-4699-9e80-70928c9abb28")
+	)
+	(wire
+		(pts
+			(xy 36.83 119.38) (xy 36.83 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d212c858-e4ce-4187-8147-a1a3f65e6dd2")
 	)
 	(wire
 		(pts
@@ -3751,16 +3008,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 53.34) (xy 88.9 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3245b48-3eab-47d5-9e9f-996cb59de96e")
-	)
-	(wire
-		(pts
 			(xy 212.09 129.54) (xy 212.09 130.81)
 		)
 		(stroke
@@ -3768,36 +3015,6 @@
 			(type default)
 		)
 		(uuid "d567fb5e-2c90-45b6-8492-6369af6f448d")
-	)
-	(wire
-		(pts
-			(xy 46.99 45.72) (xy 46.99 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d77a2c48-cd97-489a-8c05-531b119fc177")
-	)
-	(wire
-		(pts
-			(xy 67.31 21.59) (xy 67.31 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7d2f27a-581c-4baa-8a54-9119b4f6ed06")
-	)
-	(wire
-		(pts
-			(xy 26.67 96.52) (xy 26.67 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db76d842-7079-4ebf-a00b-8496b930a432")
 	)
 	(wire
 		(pts
@@ -3821,43 +3038,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 44.45) (xy 67.31 33.02)
+			(xy 77.47 85.09) (xy 90.17 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dcf8c1d5-e30f-4b44-a0ac-202c90334423")
-	)
-	(wire
-		(pts
-			(xy 114.3 152.4) (xy 114.3 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dea3f430-b76d-40c9-9f62-ff3670c752e1")
-	)
-	(wire
-		(pts
-			(xy 76.2 162.56) (xy 76.2 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e084380c-6fe3-4438-bd2b-4c2759931572")
-	)
-	(wire
-		(pts
-			(xy 85.09 158.75) (xy 85.09 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e152331a-d7f5-4386-b07c-84bd3e8f2815")
+		(uuid "dcd1e019-4c97-406d-b404-a4bc1a11a4e9")
 	)
 	(wire
 		(pts
@@ -3871,23 +3058,13 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 30.48) (xy 114.3 30.48)
+			(xy 72.39 88.9) (xy 64.77 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e4c9f515-42f7-401f-abed-c776fc091163")
-	)
-	(wire
-		(pts
-			(xy 135.89 81.28) (xy 135.89 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c81eaf-f26c-4d8e-aa89-bb5a36cb2933")
+		(uuid "e59df18d-5384-4df2-a286-4a58e52807f9")
 	)
 	(wire
 		(pts
@@ -3901,27 +3078,57 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 179.07) (xy 71.12 179.07)
+			(xy 50.8 46.99) (xy 72.39 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8679ba5-65af-4aa6-9982-d28b1d406f89")
+		(uuid "e85c1c72-435d-4932-ad2a-6907e79d02a7")
 	)
 	(wire
 		(pts
-			(xy 26.67 91.44) (xy 29.21 91.44)
+			(xy 255.27 162.56) (xy 240.03 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e8e8a94f-4044-4f8c-bb3f-7a4e458ebe70")
+		(uuid "e8646c3e-b017-4acf-80d3-207889552a0c")
 	)
 	(wire
 		(pts
-			(xy 27.94 45.72) (xy 36.83 45.72)
+			(xy 34.29 142.24) (xy 43.18 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91a597f-2f72-4d3e-a5be-36a4a543e32b")
+	)
+	(wire
+		(pts
+			(xy 234.95 152.4) (xy 240.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e944efe5-1c10-4cee-a92e-e7bdb130f4fb")
+	)
+	(wire
+		(pts
+			(xy 57.15 128.27) (xy 72.39 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea886f1b-804a-4506-910e-04b942affe6b")
+	)
+	(wire
+		(pts
+			(xy 34.29 73.66) (xy 43.18 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3941,23 +3148,23 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 33.02) (xy 27.94 33.02)
+			(xy 57.15 59.69) (xy 72.39 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed84b393-16f5-410a-a096-8b712f7f99d7")
+	)
+	(wire
+		(pts
+			(xy 43.18 60.96) (xy 34.29 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f1ae9513-7e90-4339-bacb-36a1582ef429")
-	)
-	(wire
-		(pts
-			(xy 46.99 20.32) (xy 46.99 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1c80b70-2b15-4071-b449-0b9c780cdf6c")
 	)
 	(wire
 		(pts
@@ -3971,26 +3178,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 30.48) (xy 113.03 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f25cdf77-ae6e-45e7-a5bf-748e29e9d96b")
-	)
-	(wire
-		(pts
-			(xy 138.43 85.09) (xy 138.43 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f290b8c7-fb88-4038-8915-e60c5173a3bf")
-	)
-	(wire
-		(pts
 			(xy 161.29 87.63) (xy 153.67 87.63)
 		)
 		(stroke
@@ -4001,43 +3188,33 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 167.64) (xy 35.56 167.64)
+			(xy 102.87 85.09) (xy 102.87 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f94ccb03-17a4-45bb-aed9-7413ff0fb1aa")
+		(uuid "f3db2e06-73be-4bc3-819e-8eb7c99af99c")
 	)
 	(wire
 		(pts
-			(xy 223.52 97.79) (xy 260.35 97.79)
+			(xy 102.87 85.09) (xy 102.87 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa070005-c6ca-4a1e-b02b-b2c85c141afd")
+	)
+	(wire
+		(pts
+			(xy 223.52 97.79) (xy 246.38 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc59f4e5-480a-44dc-be3d-0fc86dee96e3")
-	)
-	(wire
-		(pts
-			(xy 116.84 66.04) (xy 116.84 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd5998a9-c7c6-43c4-a0d4-72496c034c62")
-	)
-	(wire
-		(pts
-			(xy 77.47 40.64) (xy 77.47 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd5e6a7a-8f60-46e8-a55e-fdd054f6a7f9")
 	)
 	(wire
 		(pts
@@ -4049,703 +3226,69 @@
 		)
 		(uuid "fea24867-1571-4bc3-84f2-24036dd99968")
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 46.99 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "001c5f85-3d04-4654-976c-4e387e6d3626")
-		(property "Reference" "R1"
-			(at 49.53 24.1299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(label "Vbias"
+		(at 64.77 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "100k"
-			(at 49.53 26.6699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 45.212 25.4 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "21402556-9462-41da-9e54-97192ca6c1e7")
-		)
-		(pin "2"
-			(uuid "34f2ae6f-33c1-49d2-84c9-5295a501a90c")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "45747612-b24b-4973-80ab-6b714664b7de")
 	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 71.12 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00e9f694-c4cc-4b6b-8111-36ceeb072e3b")
-		(property "Reference" "#PWR05"
-			(at 71.12 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "Vbias"
+		(at 135.89 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "+2V5"
-			(at 71.12 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 71.12 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "14e91a7e-5bd1-4dd8-a4fc-2119b5becb2b")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "6615c521-29a0-418e-9e3f-5003ab7f2b6f")
 	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 69.85 189.23 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "04c837dc-3390-4c22-aa02-46cb2dfe7ccf")
-		(property "Reference" "#PWR023"
-			(at 69.85 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "Vbias"
+		(at 66.04 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "+2V5"
-			(at 69.85 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.85 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 69.85 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 69.85 189.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fa33f82f-34c7-4ce1-b3dc-990f58d3a613")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "84c9884a-fbe5-47e2-9d6e-1c120810b9a8")
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 55.88 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09e556ce-def9-4019-a8b9-6aa480a1f523")
-		(property "Reference" "R4"
-			(at 55.88 39.37 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "Vbias"
+		(at 135.89 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "10k"
-			(at 55.88 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 55.88 47.498 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 55.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8e554551-70a5-40a4-b4dd-2a821ed7049a")
-		)
-		(pin "2"
-			(uuid "9f0833db-4d97-42d3-b515-4453efccee9a")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "a648be74-ee1b-44a5-8cb5-e0cc7a6530fc")
 	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2134")
-		(at 83.82 191.77 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a7558e6-3bf4-4bca-acc9-0bf475b8167f")
-		(property "Reference" "U4"
-			(at 83.82 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "Vbias"
+		(at 255.27 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "OPA2134"
-			(at 83.82 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 83.82 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 83.82 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 83.82 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c9f4fce-e6b9-4623-a6cb-f86814f6030d")
-		)
-		(pin "8"
-			(uuid "eabd5e4b-6cb1-4791-a210-8a0d56eae39c")
-		)
-		(pin "4"
-			(uuid "a366ea3a-a31d-42f9-9205-620e1a55bd8e")
-		)
-		(pin "7"
-			(uuid "e5ed21e9-eb16-4491-a8b2-6543a3b9f79e")
-		)
-		(pin "2"
-			(uuid "839a1345-bce7-4b67-9e70-540f71af08bf")
-		)
-		(pin "6"
-			(uuid "5e1b3ebe-0c59-4ced-afc5-ac0beb545c91")
-		)
-		(pin "5"
-			(uuid "3ad93f4e-0ed3-49d1-a4a9-731c5ab9896b")
-		)
-		(pin "3"
-			(uuid "1d9679f4-d8b2-4b65-937f-5c99a7fc9149")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "U4")
-					(unit 2)
-				)
-			)
-		)
+		(uuid "aa369b0d-ae0a-415d-b5bc-afbb35fcbd48")
 	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2134")
-		(at 77.47 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0df6fac9-fc9d-4ef6-9c61-07622ef92249")
-		(property "Reference" "U3"
-			(at 77.47 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "Vbias"
+		(at 64.77 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "OPA2134"
-			(at 77.47 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 77.47 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 77.47 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 77.47 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b822cf03-6334-4a42-a04a-7a3150afc51a")
-		)
-		(pin "8"
-			(uuid "eabd5e4b-6cb1-4791-a210-8a0d56eae39b")
-		)
-		(pin "4"
-			(uuid "a366ea3a-a31d-42f9-9205-620e1a55bd8d")
-		)
-		(pin "7"
-			(uuid "82071688-e2d1-46b5-9b5d-dd42d5005a14")
-		)
-		(pin "2"
-			(uuid "5598947b-3393-4334-ab57-11b51107343b")
-		)
-		(pin "6"
-			(uuid "89c7bf9a-0b43-4cb2-9c79-b0f2d7400623")
-		)
-		(pin "5"
-			(uuid "bedc643a-f807-4924-aaa0-dd92c29de0df")
-		)
-		(pin "3"
-			(uuid "12b8ddf8-1c5a-4939-93ca-87a2b155af5f")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2134")
-		(at 275.59 90.17 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0df6fac9-fc9d-4ef6-9c61-07622ef92249")
-		(property "Reference" "U3"
-			(at 274.32 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA2134"
-			(at 274.32 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 275.59 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 275.59 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 275.59 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b822cf03-6334-4a42-a04a-7a3150afc51a")
-		)
-		(pin "8"
-			(uuid "eabd5e4b-6cb1-4791-a210-8a0d56eae39b")
-		)
-		(pin "4"
-			(uuid "a366ea3a-a31d-42f9-9205-620e1a55bd8d")
-		)
-		(pin "7"
-			(uuid "82071688-e2d1-46b5-9b5d-dd42d5005a14")
-		)
-		(pin "2"
-			(uuid "5598947b-3393-4334-ab57-11b51107343b")
-		)
-		(pin "6"
-			(uuid "89c7bf9a-0b43-4cb2-9c79-b0f2d7400623")
-		)
-		(pin "5"
-			(uuid "bedc643a-f807-4924-aaa0-dd92c29de0df")
-		)
-		(pin "3"
-			(uuid "12b8ddf8-1c5a-4939-93ca-87a2b155af5f")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "U3")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 39.37 93.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e7411e6-f9ba-42ff-b254-39e841a4484f")
-		(property "Reference" "C6"
-			(at 39.37 86.36 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 39.37 88.9 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
-			(at 43.18 93.0148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 39.37 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0f8ace08-62ae-4adf-91d3-3ef62865934c")
-		)
-		(pin "2"
-			(uuid "b6f407a3-9ce0-418e-8246-593040d776a5")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "c09217a2-7f26-42e4-b8a4-887f045d1154")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 22.86 180)
+		(at 36.83 50.8 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4756,7 +3299,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ebce6d2-b8f6-4307-bf75-cd306556b7c3")
 		(property "Reference" "#PWR01"
-			(at 30.48 16.51 0)
+			(at 36.83 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4767,7 +3310,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.48 17.78 0)
+			(at 36.83 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4777,7 +3320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 22.86 0)
+			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4788,7 +3331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 22.86 0)
+			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4799,7 +3342,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 30.48 22.86 0)
+			(at 36.83 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4817,304 +3360,6 @@
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
 					(reference "#PWR01")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2134")
-		(at 77.47 152.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f4dadff-3d28-4b74-885a-96d01790e82a")
-		(property "Reference" "U4"
-			(at 77.47 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2134"
-			(at 77.47 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 77.47 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 77.47 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 77.47 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26130814-6521-47a1-9d35-9b3a1a3000bf")
-		)
-		(pin "8"
-			(uuid "eabd5e4b-6cb1-4791-a210-8a0d56eae39b")
-		)
-		(pin "4"
-			(uuid "a366ea3a-a31d-42f9-9205-620e1a55bd8d")
-		)
-		(pin "7"
-			(uuid "82071688-e2d1-46b5-9b5d-dd42d5005a14")
-		)
-		(pin "2"
-			(uuid "b70b1901-f91b-43f8-bc17-fdfcf80db604")
-		)
-		(pin "6"
-			(uuid "89c7bf9a-0b43-4cb2-9c79-b0f2d7400623")
-		)
-		(pin "5"
-			(uuid "bedc643a-f807-4924-aaa0-dd92c29de0df")
-		)
-		(pin "3"
-			(uuid "425534af-fec9-4a1c-a027-114a94a0482e")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2134")
-		(at 251.46 90.17 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f4dadff-3d28-4b74-885a-96d01790e82a")
-		(property "Reference" "U4"
-			(at 250.19 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA2134"
-			(at 250.19 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 251.46 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 251.46 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 251.46 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26130814-6521-47a1-9d35-9b3a1a3000bf")
-		)
-		(pin "8"
-			(uuid "eabd5e4b-6cb1-4791-a210-8a0d56eae39b")
-		)
-		(pin "4"
-			(uuid "a366ea3a-a31d-42f9-9205-620e1a55bd8d")
-		)
-		(pin "7"
-			(uuid "82071688-e2d1-46b5-9b5d-dd42d5005a14")
-		)
-		(pin "2"
-			(uuid "b70b1901-f91b-43f8-bc17-fdfcf80db604")
-		)
-		(pin "6"
-			(uuid "89c7bf9a-0b43-4cb2-9c79-b0f2d7400623")
-		)
-		(pin "5"
-			(uuid "bedc643a-f807-4924-aaa0-dd92c29de0df")
-		)
-		(pin "3"
-			(uuid "425534af-fec9-4a1c-a027-114a94a0482e")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "U4")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2134")
-		(at 240.03 90.17 0)
-		(unit 3)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "120e3b81-39d9-4e00-aae4-af77fdeddd04")
-		(property "Reference" "U1"
-			(at 238.76 88.8999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "OPA2134"
-			(at 238.76 91.4399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 240.03 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 240.03 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 240.03 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c9f4fce-e6b9-4623-a6cb-f86814f6030c")
-		)
-		(pin "8"
-			(uuid "eabd5e4b-6cb1-4791-a210-8a0d56eae39b")
-		)
-		(pin "4"
-			(uuid "a366ea3a-a31d-42f9-9205-620e1a55bd8d")
-		)
-		(pin "7"
-			(uuid "82071688-e2d1-46b5-9b5d-dd42d5005a14")
-		)
-		(pin "2"
-			(uuid "839a1345-bce7-4b67-9e70-540f71af08be")
-		)
-		(pin "6"
-			(uuid "89c7bf9a-0b43-4cb2-9c79-b0f2d7400623")
-		)
-		(pin "5"
-			(uuid "bedc643a-f807-4924-aaa0-dd92c29de0df")
-		)
-		(pin "3"
-			(uuid "1d9679f4-d8b2-4b65-937f-5c99a7fc9148")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "U1")
-					(unit 3)
 				)
 			)
 		)
@@ -5198,84 +3443,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 45.72 121.92 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1757ec82-1fe7-4430-80be-34fb94f53971")
-		(property "Reference" "#PWR016"
-			(at 45.72 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 45.72 127 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 45.72 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b7527dce-7331-4a5e-9ce3-d00671a21329")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 194.31 66.04 0)
 		(unit 1)
@@ -5348,86 +3515,6 @@
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 152.4 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bf300f7-9c81-4b04-b8cc-1890b2c0b15e")
-		(property "Reference" "R21"
-			(at 97.79 146.05 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 97.79 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 97.79 154.178 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 152.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f66ce01-9c6e-46cb-a27c-8168ab13a264")
-		)
-		(pin "2"
-			(uuid "657db279-ba29-4413-8d98-b82d06edcfcc")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -5692,90 +3779,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 46.99 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2db71168-8e5a-4142-93f8-f01404dfd445")
-		(property "Reference" "R3"
-			(at 49.53 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 49.53 53.3399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 45.212 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 46.99 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c35fcac3-7a4e-4882-8a8c-d0e2f9c48c94")
-		)
-		(pin "2"
-			(uuid "406cf3a3-f697-4d4a-9020-55a7ef01c74b")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
-		(at 21.59 93.98 0)
+		(at 29.21 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5784,9 +3789,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2e5559c0-7931-460d-bdba-2cbe2dc6b5b8")
-		(property "Reference" "J3"
-			(at 19.685 85.09 0)
+		(uuid "2f801760-0b06-4d62-8122-276275e2bde3")
+		(property "Reference" "J4"
+			(at 27.305 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5796,7 +3801,7 @@
 			)
 		)
 		(property "Value" "AudioJack3"
-			(at 19.685 87.63 0)
+			(at 27.305 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5806,7 +3811,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
-			(at 21.59 93.98 0)
+			(at 29.21 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5817,7 +3822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 21.59 93.98 0)
+			(at 29.21 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5828,7 +3833,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 21.59 93.98 0)
+			(at 29.21 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5839,26 +3844,26 @@
 			)
 		)
 		(pin "S"
-			(uuid "45049659-02c5-481d-b5fe-ca56468f536a")
+			(uuid "1a699511-497a-4f62-96a7-91276575d24a")
 		)
 		(pin "T"
-			(uuid "27a910a7-8f76-4307-895c-1fc6a536349c")
+			(uuid "02a42317-9e8c-4fde-8067-9620754c64bb")
 		)
 		(pin "R"
-			(uuid "615296d3-aecd-4cac-8a94-3122cc114224")
+			(uuid "31fba2aa-d511-4cc2-9c65-ab0bf18bd263")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 66.04 143.51 0)
+		(lib_id "Device:C")
+		(at 46.99 95.25 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5867,10 +3872,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3175da77-8dd7-4d83-9a14-a278a1f17028")
-		(property "Reference" "#PWR022"
-			(at 66.04 147.32 0)
-			(hide yes)
+		(uuid "344c6520-d141-4006-a2d2-715b9a08c04f")
+		(property "Reference" "C3"
+			(at 46.99 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5879,8 +3883,8 @@
 				)
 			)
 		)
-		(property "Value" "+2V5"
-			(at 66.04 138.43 0)
+		(property "Value" "10uF"
+			(at 46.99 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5889,8 +3893,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 66.04 143.51 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+			(at 50.8 94.2848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5901,7 +3905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 143.51 0)
+			(at 46.99 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5911,85 +3915,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 66.04 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "002dc5c1-b10e-47f3-bbca-3bd5901c2130")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 99.06 187.96 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42ab13e8-e8d3-4c6f-b122-4d149f753ba6")
-		(property "Reference" "R22"
-			(at 99.06 181.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 99.06 184.15 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 99.06 189.738 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 99.06 187.96 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6000,23 +3927,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "31636055-f3a5-410b-868b-c6b8efc61469")
+			(uuid "7394a5a1-ff3f-436c-8930-e1d6a358fa1c")
 		)
 		(pin "2"
-			(uuid "98efc297-274b-45f1-b628-b84d0e189cc9")
+			(uuid "9b3087e1-6c62-430d-a5af-fb669e56a56d")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R22")
+					(reference "C3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 69.85 128.27 0)
+		(lib_id "Device:C")
+		(at 46.99 129.54 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6025,10 +3952,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "43638b16-2a4f-422b-a8e7-dc5038fa89b0")
-		(property "Reference" "#PWR018"
-			(at 69.85 132.08 0)
-			(hide yes)
+		(uuid "46083cdc-4964-49b8-9725-b30070119e5d")
+		(property "Reference" "C5"
+			(at 46.99 121.92 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6037,8 +3963,8 @@
 				)
 			)
 		)
-		(property "Value" "+2V5"
-			(at 69.85 123.19 0)
+		(property "Value" "10uF"
+			(at 46.99 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6047,8 +3973,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 69.85 128.27 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+			(at 50.8 128.5748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6059,7 +3985,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 128.27 0)
+			(at 46.99 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6069,8 +3995,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 69.85 128.27 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6081,12 +4007,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8e98263b-3de2-4e4a-a5fc-fe08ee9182b6")
+			(uuid "6de5ab0e-9838-4950-9043-c68de44b7e79")
+		)
+		(pin "2"
+			(uuid "db82e12d-81c5-42a8-b777-c1a7876864e6")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR018")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -6251,8 +4180,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 45.72 148.59 0)
+		(lib_id "Device:R_Potentiometer_Dual")
+		(at 74.93 91.44 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6261,31 +4190,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6082b077-abcd-4c2a-ada4-9ffa55169c3b")
-		(property "Reference" "R17"
-			(at 48.26 147.3199 0)
+		(uuid "5a931c70-d8e9-4f70-94b3-ffe0ac7987f1")
+		(property "Reference" "RV2"
+			(at 69.85 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 48.26 149.8599 0)
+		(property "Value" "R_Potentiometer_Dual"
+			(at 69.85 92.7099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 43.942 148.59 90)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
+			(at 73.025 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6296,7 +4225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 148.59 0)
+			(at 73.025 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6306,8 +4235,63 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 45.72 148.59 0)
+		(property "Description" "Dual potentiometer"
+			(at 74.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 74.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "pot_dual"
+			(at 74.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 74.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r1A 2=wA 3=r0A 4=r1B 5=wB 6=r0B"
+			(at 74.93 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "Rtot=1 wpos=0.4"
+			(at 74.93 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6318,15 +4302,27 @@
 			)
 		)
 		(pin "1"
-			(uuid "af112918-d62b-45f9-ad04-ab83cfe5afbf")
+			(uuid "aeb52040-31f1-492a-ad0d-06348e913305")
+		)
+		(pin "3"
+			(uuid "5a403406-0f48-4fb4-8233-35deca321016")
+		)
+		(pin "5"
+			(uuid "4c70c967-79ab-4db6-b341-6fcfc5ba77af")
+		)
+		(pin "4"
+			(uuid "a45b435a-b099-49af-a1c1-e05a6b8a1125")
+		)
+		(pin "6"
+			(uuid "7b4345a4-c8ab-49e4-a286-b22ffba6ae45")
 		)
 		(pin "2"
-			(uuid "1afd29cc-1b83-4a85-ade3-d9c9033585e4")
+			(uuid "0a0f49d0-0dd0-48ed-9e58-7050e8dc295d")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R17")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -6334,7 +4330,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 40.64 45.72 90)
+		(at 46.99 107.95 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6343,9 +4339,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "659a585b-ba37-4eff-b102-4572b2cdde49")
-		(property "Reference" "C2"
-			(at 40.64 38.1 90)
+		(uuid "5ee7e3ed-783e-4372-aa81-6610c01f8daf")
+		(property "Reference" "C4"
+			(at 46.99 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6355,7 +4351,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 40.64 40.64 90)
+			(at 46.99 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6365,7 +4361,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
-			(at 44.45 44.7548 0)
+			(at 50.8 106.9848 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6376,7 +4372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 45.72 0)
+			(at 46.99 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6387,7 +4383,170 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 45.72 0)
+			(at 46.99 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad8eb109-1a0c-4f3c-b755-d31197b7c650")
+		)
+		(pin "2"
+			(uuid "a1c26253-4387-4ef5-8107-3b7c68cc8860")
+		)
+		(instances
+			(project "Desk Amplifier"
+				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Audio:AudioJack3")
+		(at 29.21 95.25 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6310a49b-0743-4007-a27b-8a7748a14244")
+		(property "Reference" "J3"
+			(at 27.305 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AudioJack3"
+			(at 27.305 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
+			(at 29.21 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+			(at 29.21 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "S"
+			(uuid "e6cf6097-7553-4eb6-8d3d-35381862ca07")
+		)
+		(pin "T"
+			(uuid "855a913f-87fa-401a-a359-c85a8da6ca35")
+		)
+		(pin "R"
+			(uuid "4b14e717-0af6-4d25-a436-89a340ea828f")
+		)
+		(instances
+			(project "Desk Amplifier"
+				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 73.66 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "659a585b-ba37-4eff-b102-4572b2cdde49")
+		(property "Reference" "C2"
+			(at 46.99 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 46.99 68.58 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
+			(at 50.8 72.6948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6498,169 +4657,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 29.21 143.51 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bd167db-1bed-4492-a441-2c2b4d7453c4")
-		(property "Reference" "#PWR019"
-			(at 29.21 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "594c97be-0afb-474c-acf3-a41fe3af8a5f")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
-		(at 21.59 154.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ca56652-f39e-49b2-bed7-399aaf51fb0b")
-		(property "Reference" "J4"
-			(at 19.685 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack3"
-			(at 19.685 148.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
-			(at 21.59 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 21.59 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 21.59 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "S"
-			(uuid "9e2ad0ea-f47d-4271-88d7-a3ffbb68c291")
-		)
-		(pin "T"
-			(uuid "ab733ea1-555f-4b82-95c7-2fb8b220c567")
-		)
-		(pin "R"
-			(uuid "1223d5d8-c713-47cd-aa78-813a31b99285")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 40.64 33.02 90)
+		(at 46.99 60.96 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6671,7 +4669,7 @@
 		(fields_autoplaced yes)
 		(uuid "71e0f5c8-d1c2-4825-b7f8-7897809964aa")
 		(property "Reference" "C1"
-			(at 40.64 25.4 90)
+			(at 46.99 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6681,7 +4679,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 40.64 27.94 90)
+			(at 46.99 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6691,7 +4689,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
-			(at 44.45 32.0548 0)
+			(at 50.8 59.9948 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6702,7 +4700,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 33.02 0)
+			(at 46.99 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6713,7 +4711,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 40.64 33.02 0)
+			(at 46.99 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6739,184 +4737,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2134")
-		(at 80.01 133.35 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "738eb914-c220-44bb-8944-9ff1b09e105e")
-		(property "Reference" "U3"
-			(at 80.01 123.19 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2134"
-			(at 80.01 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 80.01 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 80.01 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 80.01 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c9f4fce-e6b9-4623-a6cb-f86814f6030d")
-		)
-		(pin "8"
-			(uuid "eabd5e4b-6cb1-4791-a210-8a0d56eae39c")
-		)
-		(pin "4"
-			(uuid "a366ea3a-a31d-42f9-9205-620e1a55bd8e")
-		)
-		(pin "7"
-			(uuid "cfcecf67-941f-462e-9c53-65f3d081687e")
-		)
-		(pin "2"
-			(uuid "839a1345-bce7-4b67-9e70-540f71af08bf")
-		)
-		(pin "6"
-			(uuid "39d8185d-038c-4c3e-ad98-20383e85c9ab")
-		)
-		(pin "5"
-			(uuid "222489c0-d0f3-4c2f-bdc6-c35b483d05a5")
-		)
-		(pin "3"
-			(uuid "1d9679f4-d8b2-4b65-937f-5c99a7fc9149")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "U3")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 46.99 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76532111-553f-47c6-8925-2f1dd11d8cfe")
-		(property "Reference" "#PWR04"
-			(at 46.99 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 46.99 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 46.99 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0149b12-660d-4c5f-87e1-c9f6c34fecf3")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
-		(at 99.06 127 90)
+		(at 93.98 97.79 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6925,9 +4747,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b053a71-af28-4730-a9ae-d1e9150f71e6")
-		(property "Reference" "R16"
-			(at 99.06 120.65 90)
+		(uuid "7e1443ce-9e06-47e8-b725-923a7ece4ede")
+		(property "Reference" "R12"
+			(at 93.98 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6937,7 +4759,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 99.06 123.19 90)
+			(at 93.98 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6947,7 +4769,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 99.06 128.778 90)
+			(at 93.98 99.568 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6958,7 +4780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 127 0)
+			(at 93.98 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6969,7 +4791,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 127 0)
+			(at 93.98 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6980,93 +4802,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c84ff375-9f33-4926-8a9a-63a87bf6acbb")
+			(uuid "b8362584-1722-42fd-920b-c80a63350c64")
 		)
 		(pin "2"
-			(uuid "e04af230-c709-4777-80b8-bee06ded20c5")
+			(uuid "ccde7388-bc46-42bf-a3cc-6577a8cc31fe")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 29.21 82.55 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ff8c38c-4eb2-40ff-b294-dfa44356a894")
-		(property "Reference" "#PWR014"
-			(at 29.21 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 29.21 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 29.21 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a592a0de-99ba-4853-8133-98a1e59fc631")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR014")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -7074,7 +4818,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 100.33 66.04 90)
+		(at 93.98 63.5 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7085,7 +4829,7 @@
 		(fields_autoplaced yes)
 		(uuid "82d74ed0-cab1-4449-a2e2-c96224d43f0a")
 		(property "Reference" "R7"
-			(at 100.33 59.69 90)
+			(at 93.98 57.15 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7095,7 +4839,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 100.33 62.23 90)
+			(at 93.98 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7105,7 +4849,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 100.33 67.818 90)
+			(at 93.98 65.278 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7116,7 +4860,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 66.04 0)
+			(at 93.98 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7127,7 +4871,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 66.04 0)
+			(at 93.98 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7153,8 +4897,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 45.72 182.88 180)
+		(lib_id "Device:R")
+		(at 93.98 119.38 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7163,10 +4907,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8417aae6-d833-4f0c-b1bd-dd2032f2bd5a")
-		(property "Reference" "#PWR021"
-			(at 45.72 179.07 0)
-			(hide yes)
+		(uuid "8b653cfc-7a44-4298-912a-06b1d484ce0c")
+		(property "Reference" "R13"
+			(at 93.98 113.03 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7175,8 +4918,8 @@
 				)
 			)
 		)
-		(property "Value" "+2V5"
-			(at 45.72 187.96 0)
+		(property "Value" "10k"
+			(at 93.98 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7185,8 +4928,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 45.72 182.88 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 93.98 121.158 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7197,7 +4940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 182.88 0)
+			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,86 +4950,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 45.72 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7099b0b9-d053-4f61-b3e7-f442462cee44")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 135.89 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bb61c13-fe43-42cd-b592-cdfcb52807a0")
-		(property "Reference" "#PWR06"
-			(at 135.89 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 135.89 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 135.89 81.28 0)
+		(property "Description" "Resistor"
+			(at 93.98 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7297,90 +4962,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "14e91a7e-5bd1-4dd8-a4fc-2119b5becb2b")
+			(uuid "e7aafe37-3516-47c8-b872-55c77894ee0f")
+		)
+		(pin "2"
+			(uuid "b4be6acb-a8d4-4513-a835-a9c1dff32b7a")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 45.72 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8e529a29-2431-4e8a-b3e2-4aaf2bef2f87")
-		(property "Reference" "#PWR020"
-			(at 45.72 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 45.72 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 45.72 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c29d2a60-1e98-47b7-b3f6-c4e82df8122d")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR020")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7467,86 +5057,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 45.72 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8efc13f3-b958-4ddc-93b4-4ba7824f9b69")
-		(property "Reference" "#PWR015"
-			(at 45.72 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 45.72 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 45.72 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "74fc41b7-aefc-4bcb-810c-367b01d04632")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 39.37 154.94 90)
+		(at 46.99 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7555,9 +5067,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "950e1beb-5711-40f5-b906-6c169945f86c")
-		(property "Reference" "C11"
-			(at 39.37 147.32 90)
+		(uuid "9622b9c2-aa2c-44aa-9657-986a5ae75e35")
+		(property "Reference" "C6"
+			(at 46.99 134.62 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7567,7 +5079,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 39.37 149.86 90)
+			(at 46.99 137.16 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7577,7 +5089,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
-			(at 43.18 153.9748 0)
+			(at 50.8 141.2748 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7588,7 +5100,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 154.94 0)
+			(at 46.99 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7599,7 +5111,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 39.37 154.94 0)
+			(at 46.99 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7610,322 +5122,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0beb3cb-4233-4b9d-9e3b-1b4bf12cd888")
+			(uuid "410bb6d0-1cd8-4a17-b9e8-e0accbba1f7f")
 		)
 		(pin "2"
-			(uuid "d666785a-6882-48a5-8270-0afa4d13952f")
+			(uuid "0dbfa68d-0f03-4beb-b3c2-dc98bd6ee6ee")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_Dual")
-		(at 73.66 172.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "968ccc4e-f216-468e-94bf-81ed26d2d2ad")
-		(property "Reference" "RV3"
-			(at 78.74 171.4499 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer_Dual"
-			(at 78.74 173.9899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
-			(at 75.565 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 75.565 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual potentiometer"
-			(at 73.66 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 73.66 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "pot_dual"
-			(at 73.66 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 73.66 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r1A 2=wA 3=r0A 4=r1B 5=wB 6=r0B"
-			(at 73.66 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "Rtot=1 wpos=0.4"
-			(at 73.66 172.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3fb7357c-d19d-4137-bd24-dfd8e55ac74e")
-		)
-		(pin "3"
-			(uuid "6f244149-f6f0-4d8c-891f-891a1bf5f4a1")
-		)
-		(pin "5"
-			(uuid "7b64c538-cbe4-4691-8bbc-e5ac694de216")
-		)
-		(pin "4"
-			(uuid "3e5cb0d8-c7df-4561-8226-b7bff8f4723b")
-		)
-		(pin "6"
-			(uuid "824a982d-f5cd-4309-88de-f4a153874a56")
-		)
-		(pin "2"
-			(uuid "19154c4f-7be7-4693-91c6-fe2a6fbd32d5")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 67.31 21.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "996e1fe9-b51c-4861-9dd2-a59e80f7d6e3")
-		(property "Reference" "#PWR03"
-			(at 67.31 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 67.31 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 67.31 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 67.31 21.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4737d5cc-9034-44a0-a16d-917d17bebc87")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 154.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9c3864e4-c89c-4aa4-8068-f2ada64fd34b")
-		(property "Reference" "R20"
-			(at 59.69 148.59 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 59.69 151.13 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 59.69 156.718 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 154.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "34580103-c0b1-461e-b114-33ed71092258")
-		)
-		(pin "2"
-			(uuid "bb84a0e9-1cce-4049-b396-9a0b22a0224f")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R20")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -8010,86 +5215,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 39.37 167.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a89c08a3-1545-4ae4-8e1f-b397a36cb40c")
-		(property "Reference" "C12"
-			(at 39.37 160.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 39.37 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
-			(at 43.18 166.6748 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 39.37 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a011aca-b5ff-465e-8176-5d493d7d4c01")
-		)
-		(pin "2"
-			(uuid "4d7ee4b8-ea03-4b7f-a20d-abcb60975fa1")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 212.09 142.24 0)
 		(unit 1)
@@ -8168,8 +5293,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 220.98 130.81 0)
+		(lib_id "power:GND")
+		(at 36.83 119.38 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8178,9 +5303,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ad06066d-ffae-49ce-a63c-6d9e1025f9b1")
-		(property "Reference" "#FLG03"
-			(at 220.98 128.905 0)
+		(uuid "ad15846c-18d0-4336-976b-556140b73e5b")
+		(property "Reference" "#PWR05"
+			(at 36.83 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8190,8 +5315,8 @@
 				)
 			)
 		)
-		(property "Value" "PWR_FLAG"
-			(at 220.98 125.73 0)
+		(property "Value" "GND"
+			(at 36.83 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8201,7 +5326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 130.81 0)
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8212,7 +5337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 130.81 0)
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8222,86 +5347,8 @@
 				)
 			)
 		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 220.98 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "cac4b9d1-089a-4681-b421-a1a26def9658")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 46.99 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aefdfa32-1e7f-4a52-9f0a-52d7c25c6950")
-		(property "Reference" "#PWR024"
-			(at 46.99 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 46.99 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 46.99 20.32 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8312,171 +5359,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5fcc3a2f-2722-466c-bc6a-e5bb8b013087")
+			(uuid "39b6bcec-d16f-4a97-85bc-5e751c3c239c")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+2V5")
-		(at 224.79 130.81 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1869c12-d86a-478a-a34e-97383eaec0b3")
-		(property "Reference" "#PWR012"
-			(at 220.98 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+2V5"
-			(at 228.6 130.8099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 224.79 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "091de0a7-45a6-464c-bd9d-c75b448270bc")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 59.69 93.98 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3c6fc12-8caa-468a-92da-e8dd7713ed49")
-		(property "Reference" "R14"
-			(at 59.69 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 59.69 90.17 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 59.69 95.758 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 59.69 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b375b305-6a4f-4161-acb4-dad2e77be9d1")
-		)
-		(pin "2"
-			(uuid "4eacec82-c34a-4308-8e93-9cb545808a5f")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R14")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8563,8 +5451,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 66.04 82.55 0)
+		(lib_id "power:GND")
+		(at 36.83 85.09 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8573,9 +5461,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b83870b2-0f71-4e32-b5a7-e6f92794c35b")
-		(property "Reference" "#PWR017"
-			(at 66.04 86.36 0)
+		(uuid "b54de8b2-2bb4-48df-b1f7-76e4111e9519")
+		(property "Reference" "#PWR04"
+			(at 36.83 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8585,8 +5473,8 @@
 				)
 			)
 		)
-		(property "Value" "+2V5"
-			(at 66.04 77.47 0)
+		(property "Value" "GND"
+			(at 36.83 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8596,7 +5484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 82.55 0)
+			(at 36.83 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8607,7 +5495,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 82.55 0)
+			(at 36.83 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8617,8 +5505,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 66.04 82.55 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8629,12 +5517,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b7a44f56-79ae-425c-9c14-16f59ff5e899")
+			(uuid "88bf70ce-33ef-45cd-a213-e1b8c00681b3")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR017")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8642,7 +5530,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 87.63 0)
+		(at 93.98 132.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8651,31 +5539,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c5e0f37e-ea94-41b0-929c-e56c5f7288de")
-		(property "Reference" "R11"
-			(at 48.26 86.3599 0)
+		(uuid "b595afda-c41e-4769-932e-68de47cc3807")
+		(property "Reference" "R14"
+			(at 93.98 125.73 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 48.26 88.8999 0)
+		(property "Value" "10k"
+			(at 93.98 128.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 43.942 87.63 90)
+			(at 93.98 133.858 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8686,7 +5572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 87.63 0)
+			(at 93.98 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8697,7 +5583,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 87.63 0)
+			(at 93.98 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8708,23 +5594,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "b2cf0209-5eda-4ab8-9995-c695af1b6f98")
+			(uuid "64dc98c8-1cef-4e7b-bbda-83fe27a679a1")
 		)
 		(pin "2"
-			(uuid "db802fec-df79-4252-b1fc-0ae17e3db7e7")
+			(uuid "077d09d7-54b0-4d4a-8d93-5ebe9c142478")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+2V5")
-		(at 135.89 44.45 0)
+		(lib_id "Device:R")
+		(at 93.98 85.09 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8733,10 +5619,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c6b42b96-da10-4594-a272-363e44c6f772")
-		(property "Reference" "#PWR07"
-			(at 135.89 48.26 0)
-			(hide yes)
+		(uuid "b6af0b0b-5542-488f-ab38-65bd85e0738e")
+		(property "Reference" "R11"
+			(at 93.98 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8745,8 +5630,8 @@
 				)
 			)
 		)
-		(property "Value" "+2V5"
-			(at 135.89 39.37 0)
+		(property "Value" "10k"
+			(at 93.98 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8755,8 +5640,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 135.89 44.45 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 93.98 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8767,7 +5652,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 44.45 0)
+			(at 93.98 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8777,8 +5662,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 135.89 44.45 0)
+		(property "Description" "Resistor"
+			(at 93.98 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8789,12 +5674,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "14e91a7e-5bd1-4dd8-a4fc-2119b5becb2b")
+			(uuid "e243af78-2292-4a94-8b6b-871dc4f176d8")
+		)
+		(pin "2"
+			(uuid "6e33aae5-fbbb-4479-9d95-2af54a09288f")
 		)
 		(instances
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "#PWR07")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8884,86 +5772,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 60.96 33.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c80f0d4e-4d29-44b5-8e37-6e3236424bf2")
-		(property "Reference" "R2"
-			(at 60.96 26.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 60.96 29.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 60.96 34.798 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "09c08632-f89c-4f9f-9a92-998fa7a19340")
-		)
-		(pin "2"
-			(uuid "ad05522b-5a05-48dd-9bfc-08e359f713bf")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 146.05 97.79 90)
 		(unit 1)
 		(body_style 1)
@@ -9037,88 +5845,6 @@
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 45.72 173.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf30aa32-5ee6-4085-abe8-e21c1209bffe")
-		(property "Reference" "R18"
-			(at 48.26 172.7199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 48.26 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 43.942 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "309f81bd-b80f-4198-a416-c06fdc0aeb61")
-		)
-		(pin "2"
-			(uuid "32c48eb8-e376-43f8-8194-0d1e96bf8e7f")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -9223,7 +5949,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioJack3")
-		(at 22.86 33.02 0)
+		(at 29.21 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9234,7 +5960,7 @@
 		(fields_autoplaced yes)
 		(uuid "da578607-d9c7-4f35-be0e-6303dd0d2737")
 		(property "Reference" "J1"
-			(at 20.955 24.13 0)
+			(at 27.305 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9244,7 +5970,7 @@
 			)
 		)
 		(property "Value" "AudioJack3"
-			(at 20.955 26.67 0)
+			(at 27.305 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9254,7 +5980,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
-			(at 22.86 33.02 0)
+			(at 29.21 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9265,7 +5991,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 33.02 0)
+			(at 29.21 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9276,7 +6002,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-			(at 22.86 33.02 0)
+			(at 29.21 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9385,235 +6111,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer_Dual")
-		(at 73.66 111.76 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dbc8551e-3877-4272-be1d-f13e492eae21")
-		(property "Reference" "RV2"
-			(at 78.74 110.4899 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "R_Potentiometer_Dual"
-			(at 78.74 113.0299 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
-			(at 75.565 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 75.565 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual potentiometer"
-			(at 73.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 73.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "pot_dual"
-			(at 73.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 73.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r1A 2=wA 3=r0A 4=r1B 5=wB 6=r0B"
-			(at 73.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Params" "Rtot=1 wpos=0.4"
-			(at 73.66 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dd57aed8-82c4-434e-a9dc-f28819b42a01")
-		)
-		(pin "3"
-			(uuid "d62b8a34-b3b0-4f46-bebc-b2e3d557af29")
-		)
-		(pin "5"
-			(uuid "b449e06f-5b58-4ffb-b993-a7b154a9ca0f")
-		)
-		(pin "4"
-			(uuid "6142104b-1702-4901-a641-5fe358030518")
-		)
-		(pin "6"
-			(uuid "4981b0cb-8490-46d5-8bed-4842e4eadf49")
-		)
-		(pin "2"
-			(uuid "001d0145-a1ea-4c45-998e-3a5eb61e7ff5")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "RV2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 106.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de7e1255-e38c-4022-b788-30ff7b750239")
-		(property "Reference" "R13"
-			(at 54.61 100.33 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 54.61 102.87 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 54.61 108.458 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c22cfd8-d6f0-4bcf-baa9-9df724515fb1")
-		)
-		(pin "2"
-			(uuid "40850183-b324-4e42-a29d-44c4a50cdb4e")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 232.41 78.74 0)
 		(unit 1)
@@ -9692,104 +6189,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2134")
-		(at 78.74 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfcd4da7-2346-46cd-a30b-4bfa83ef9ff8")
-		(property "Reference" "U1"
-			(at 78.74 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2134"
-			(at 78.74 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 78.74 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 78.74 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 78.74 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c9f4fce-e6b9-4623-a6cb-f86814f6030c")
-		)
-		(pin "8"
-			(uuid "eabd5e4b-6cb1-4791-a210-8a0d56eae39b")
-		)
-		(pin "4"
-			(uuid "a366ea3a-a31d-42f9-9205-620e1a55bd8d")
-		)
-		(pin "7"
-			(uuid "82071688-e2d1-46b5-9b5d-dd42d5005a14")
-		)
-		(pin "2"
-			(uuid "839a1345-bce7-4b67-9e70-540f71af08be")
-		)
-		(pin "6"
-			(uuid "89c7bf9a-0b43-4cb2-9c79-b0f2d7400623")
-		)
-		(pin "5"
-			(uuid "bedc643a-f807-4924-aaa0-dd92c29de0df")
-		)
-		(pin "3"
-			(uuid "1d9679f4-d8b2-4b65-937f-5c99a7fc9148")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 223.52 82.55 0)
 		(unit 1)
@@ -9862,6 +6261,451 @@
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2134")
+		(at 247.65 154.94 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c35073-b28b-4552-8ada-abad6b971131")
+		(property "Reference" "U1"
+			(at 247.65 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2134"
+			(at 247.65 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+			(at 247.65 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 247.65 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "0786e694-042c-4df2-81d1-3ebd8b09b1e7")
+		)
+		(pin "6"
+			(uuid "bcb5df27-caef-4443-87fb-d02f29f33621")
+		)
+		(pin "4"
+			(uuid "52953058-b46d-4690-875f-b52a01b20140")
+		)
+		(pin "3"
+			(uuid "878d6130-a4c1-449d-b2da-b799256659ec")
+		)
+		(pin "5"
+			(uuid "b9894b5a-020d-45b5-a13f-6458445fe0cd")
+		)
+		(pin "1"
+			(uuid "30402125-3e76-4655-b265-31a2464367ea")
+		)
+		(pin "2"
+			(uuid "8e53a9ed-9ab1-46a6-860c-b68d1ee5813f")
+		)
+		(pin "8"
+			(uuid "70bba7b3-257a-447f-ae66-c1917bbf5a07")
+		)
+		(instances
+			(project "Desk Amplifier"
+				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2134")
+		(at 247.65 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c35073-b28b-4552-8ada-abad6b971131")
+		(property "Reference" "U1"
+			(at 247.65 123.19 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OPA2134"
+			(at 247.65 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+			(at 247.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 247.65 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "0786e694-042c-4df2-81d1-3ebd8b09b1e7")
+		)
+		(pin "6"
+			(uuid "bcb5df27-caef-4443-87fb-d02f29f33621")
+		)
+		(pin "4"
+			(uuid "52953058-b46d-4690-875f-b52a01b20140")
+		)
+		(pin "3"
+			(uuid "878d6130-a4c1-449d-b2da-b799256659ec")
+		)
+		(pin "5"
+			(uuid "b9894b5a-020d-45b5-a13f-6458445fe0cd")
+		)
+		(pin "1"
+			(uuid "30402125-3e76-4655-b265-31a2464367ea")
+		)
+		(pin "2"
+			(uuid "8e53a9ed-9ab1-46a6-860c-b68d1ee5813f")
+		)
+		(pin "8"
+			(uuid "70bba7b3-257a-447f-ae66-c1917bbf5a07")
+		)
+		(instances
+			(project "Desk Amplifier"
+				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:OPA2134")
+		(at 248.92 90.17 0)
+		(unit 3)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1c35073-b28b-4552-8ada-abad6b971131")
+		(property "Reference" "U1"
+			(at 247.65 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OPA2134"
+			(at 247.65 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
+			(at 248.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
+			(at 248.92 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "0786e694-042c-4df2-81d1-3ebd8b09b1e7")
+		)
+		(pin "6"
+			(uuid "bcb5df27-caef-4443-87fb-d02f29f33621")
+		)
+		(pin "4"
+			(uuid "52953058-b46d-4690-875f-b52a01b20140")
+		)
+		(pin "3"
+			(uuid "878d6130-a4c1-449d-b2da-b799256659ec")
+		)
+		(pin "5"
+			(uuid "b9894b5a-020d-45b5-a13f-6458445fe0cd")
+		)
+		(pin "1"
+			(uuid "30402125-3e76-4655-b265-31a2464367ea")
+		)
+		(pin "2"
+			(uuid "8e53a9ed-9ab1-46a6-860c-b68d1ee5813f")
+		)
+		(pin "8"
+			(uuid "70bba7b3-257a-447f-ae66-c1917bbf5a07")
+		)
+		(instances
+			(project "Desk Amplifier"
+				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
+					(reference "U1")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_Dual")
+		(at 74.93 125.73 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4ac7ca8-166a-41e4-abcf-21a2f45b97a0")
+		(property "Reference" "RV3"
+			(at 69.85 124.4599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "R_Potentiometer_Dual"
+			(at 69.85 126.9999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
+			(at 73.025 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.025 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual potentiometer"
+			(at 74.93 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 74.93 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "pot_dual"
+			(at 74.93 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 74.93 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=r1A 2=wA 3=r0A 4=r1B 5=wB 6=r0B"
+			(at 74.93 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Params" "Rtot=1 wpos=0.4"
+			(at 74.93 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31ba00b4-20f7-454f-9edd-3d3de2a9a0f6")
+		)
+		(pin "3"
+			(uuid "023c8c6d-312f-4fe0-972b-7ef33cc1223c")
+		)
+		(pin "5"
+			(uuid "d4e7b198-1a6c-422a-90da-7084611b9a57")
+		)
+		(pin "4"
+			(uuid "76ed207d-dd20-43d3-8cd0-48b595f0557f")
+		)
+		(pin "6"
+			(uuid "24959ab6-1143-4ba5-b801-1a32801bf9a5")
+		)
+		(pin "2"
+			(uuid "3e12d8e6-3b93-4e7f-bf1c-7ef0e971183e")
+		)
+		(instances
+			(project "Desk Amplifier"
+				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -9968,188 +6812,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 45.72 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5dd4e57-0a1e-45fd-8bbe-1ec52e0a3327")
-		(property "Reference" "R12"
-			(at 48.26 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 48.26 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 43.942 113.03 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7530b68-4905-45e2-af28-59ceb48829b8")
-		)
-		(pin "2"
-			(uuid "a1984e48-30f7-4b13-81e1-3e832079117f")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:OPA2134")
-		(at 81.28 72.39 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ead7fca9-b3e9-42a3-a84c-929747d2f967")
-		(property "Reference" "U1"
-			(at 81.28 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2134"
-			(at 81.28 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 81.28 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa134.pdf"
-			(at 81.28 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual SoundPlus High Performance Audio Operational Amplifiers, DIP-8/SOIC-8"
-			(at 81.28 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c9f4fce-e6b9-4623-a6cb-f86814f6030c")
-		)
-		(pin "8"
-			(uuid "eabd5e4b-6cb1-4791-a210-8a0d56eae39b")
-		)
-		(pin "4"
-			(uuid "a366ea3a-a31d-42f9-9205-620e1a55bd8d")
-		)
-		(pin "7"
-			(uuid "82071688-e2d1-46b5-9b5d-dd42d5005a14")
-		)
-		(pin "2"
-			(uuid "839a1345-bce7-4b67-9e70-540f71af08be")
-		)
-		(pin "6"
-			(uuid "89c7bf9a-0b43-4cb2-9c79-b0f2d7400623")
-		)
-		(pin "5"
-			(uuid "bedc643a-f807-4924-aaa0-dd92c29de0df")
-		)
-		(pin "3"
-			(uuid "1d9679f4-d8b2-4b65-937f-5c99a7fc9148")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Potentiometer_Dual")
-		(at 74.93 50.8 90)
+		(at 74.93 57.15 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10160,7 +6824,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee9cfe82-2f88-4052-a11c-f668fd29f6a0")
 		(property "Reference" "RV1"
-			(at 80.01 49.5299 90)
+			(at 69.85 55.8799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10171,7 +6835,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer_Dual"
-			(at 80.01 52.0699 90)
+			(at 69.85 58.4199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10182,7 +6846,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK097_Dual_Horizontal"
-			(at 76.835 44.45 0)
+			(at 73.025 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10193,7 +6857,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.835 44.45 0)
+			(at 73.025 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10204,7 +6868,7 @@
 			)
 		)
 		(property "Description" "Dual potentiometer"
-			(at 74.93 50.8 0)
+			(at 74.93 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10215,7 +6879,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 74.93 50.8 0)
+			(at 74.93 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10226,7 +6890,7 @@
 			)
 		)
 		(property "Sim.Name" "pot_dual"
-			(at 74.93 50.8 0)
+			(at 74.93 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10237,7 +6901,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 74.93 50.8 0)
+			(at 74.93 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10248,7 +6912,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=r1A 2=wA 3=r0A 4=r1B 5=wB 6=r0B"
-			(at 74.93 50.8 0)
+			(at 74.93 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10259,7 +6923,7 @@
 			)
 		)
 		(property "Sim.Params" "Rtot=1 wpos=0.4"
-			(at 74.93 50.8 0)
+			(at 74.93 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10298,7 +6962,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 30.48 90)
+		(at 93.98 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10309,7 +6973,7 @@
 		(fields_autoplaced yes)
 		(uuid "eec01a5c-006f-4fe9-a58e-933289c1361c")
 		(property "Reference" "R6"
-			(at 99.06 24.13 90)
+			(at 93.98 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10319,7 +6983,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 99.06 26.67 90)
+			(at 93.98 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10329,7 +6993,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 99.06 32.258 90)
+			(at 93.98 52.578 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10340,7 +7004,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 30.48 0)
+			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10351,7 +7015,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 30.48 0)
+			(at 93.98 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10371,246 +7035,6 @@
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 54.61 167.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3764f35-c0e5-466c-a27b-e2f4b8be4ab3")
-		(property "Reference" "R19"
-			(at 54.61 161.29 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 54.61 163.83 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 54.61 169.418 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 54.61 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f342c918-c46e-4cc7-99ec-e6c3a0adf35d")
-		)
-		(pin "2"
-			(uuid "e8eb2863-cd90-4150-b456-afa29ceb3898")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 39.37 106.68 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3ac8d58-186c-4e73-a9a2-e2d9f077fb01")
-		(property "Reference" "C7"
-			(at 39.37 99.06 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 39.37 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D10.0mm_W2.5mm_P5.00mm"
-			(at 43.18 105.7148 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 39.37 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "da0da6db-372b-452e-a2fa-a678225ac214")
-		)
-		(pin "2"
-			(uuid "8bc8fe2c-c8e1-4213-a258-1bd2166f5fc3")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 97.79 91.44 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fa1ad7da-85db-4e4e-ab55-d67f94bd705e")
-		(property "Reference" "R15"
-			(at 97.79 85.09 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 97.79 87.63 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 97.79 93.218 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b385f76-3f76-4441-bfdd-2651742d44b6")
-		)
-		(pin "2"
-			(uuid "47647909-db89-4f3b-85a2-1cb42f6cc361")
-		)
-		(instances
-			(project "Desk Amplifier"
-				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
-					(reference "R15")
 					(unit 1)
 				)
 			)
