@@ -1440,6 +1440,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power global)
 			(pin_numbers
@@ -1810,9 +1909,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "not used / grounded to prevent noise\n"
+		(exclude_from_sim no)
+		(at 245.872 163.322 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18c89aaf-897c-48ef-9b8c-0841cb07627b")
+	)
 	(text "Configured for 5v up to 500mA\nhttps://www.ti.com/lit/an/slyt118/slyt118.pdf"
 		(exclude_from_sim no)
-		(at 138.684 158.75 0)
+		(at 126.492 150.368 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3464,7 +3573,7 @@
 		(uuid "a648be74-ee1b-44a5-8cb5-e0cc7a6530fc")
 	)
 	(label "Vbias"
-		(at 254 137.16 0)
+		(at 262.89 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5296,6 +5405,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.89 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55e05e32-9734-4bca-aa94-38f465ae6f1f")
+		(property "Reference" "H1"
+			(at 265.43 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 265.43 100.3299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 262.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 262.89 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Desk Amplifier"
+				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 229.87 134.62 180)
 		(unit 1)
@@ -6560,13 +6745,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "b6476260-6df4-4943-8df7-c3a52cd93a2c")
+			(uuid "b6476260-6df4-4943-8df7-c3a52cd93a2d")
 		)
 		(pin "2"
-			(uuid "940f329d-2e04-4abc-9ba2-f52fe7ef303c")
+			(uuid "940f329d-2e04-4abc-9ba2-f52fe7ef303d")
 		)
 		(pin "1"
-			(uuid "b7cd59aa-0cc4-4f64-9e42-9d897876242a")
+			(uuid "b7cd59aa-0cc4-4f64-9e42-9d897876242b")
 		)
 		(instances
 			(project "Desk Amplifier"
@@ -8387,6 +8572,82 @@
 			(project "Desk Amplifier"
 				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.89 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b43ce5c0-1586-4361-b6b3-84bd5452bb3f")
+		(property "Reference" "H3"
+			(at 265.43 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 265.43 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 262.89 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Desk Amplifier"
+				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -10305,6 +10566,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 262.89 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fbcc8b0f-56f0-4c0a-831f-e8e9fc54302a")
+		(property "Reference" "H2"
+			(at 265.43 102.8699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 265.43 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.1mm"
+			(at 262.89 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 262.89 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Desk Amplifier"
+				(path "/eb70567d-48e8-4d88-ad4c-aacd02fe476f"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Custom Library:STX-3000")
 		(at 19.05 93.98 0)
 		(unit 1)
@@ -10456,13 +10793,13 @@
 			)
 		)
 		(pin "3"
-			(uuid "b6476260-6df4-4943-8df7-c3a52cd93a2c")
+			(uuid "b6476260-6df4-4943-8df7-c3a52cd93a2e")
 		)
 		(pin "2"
-			(uuid "940f329d-2e04-4abc-9ba2-f52fe7ef303c")
+			(uuid "940f329d-2e04-4abc-9ba2-f52fe7ef303e")
 		)
 		(pin "1"
-			(uuid "b7cd59aa-0cc4-4f64-9e42-9d897876242a")
+			(uuid "b7cd59aa-0cc4-4f64-9e42-9d897876242c")
 		)
 		(instances
 			(project "Desk Amplifier"
