@@ -6,6 +6,14 @@ This is a project to build the simplest version of what I need:
 - 1 line output
 - No EQ changes noticable to listeners (below a 'Just Noticable Difference' [threshold](https://www.sciencedirect.com/topics/engineering/just-noticeable-difference))
 
+## Design
+
+To keep things cheap, the design uses a single op-amp per audio channel at the cost of crosstalk between inputs.
+
+This is modified from a number of other similar projects/tutorials. Thank you, in particular, to:
+ - https://www.youtube.com/watch?v=8ejBMXT3z2g
+ - https://www.youtube.com/watch?v=-AFgLTBROns
+ - https://www.youtube.com/watch?v=YCIcnFuRK7w
 
 ## PCB Render
 Static render of the assembled PCB.
