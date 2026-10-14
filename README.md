@@ -1,6 +1,25 @@
-View this project on [CADLAB.io](https://cadlab.io/project/30623). 
-
 All the desktop amps are either too cheap (passive), or too expensive (too many features).
 
-This is a project to see if I can build what I want: a 3 input / 1 output simple mixer/amp
-to allow my desk speakers to play audio from my laptop, desktop, and CD player at once
+This is a project to build the simplest version of what I need:
+- 3 stereo line inputs
+- Ability to change the volume per-input
+- 1 line output
+- No EQ changes noticable to listeners (below a 'Just Noticable Difference' [threshold](https://www.sciencedirect.com/topics/engineering/just-noticeable-difference))
+
+
+## PCB Render
+Static render of the assembled PCB.
+
+View this project on [CADLAB.io](https://cadlab.io/project/30623) to see the current Schematic / Board renders.
+
+![render](images/render.png)
+
+
+## Simulated Frequency Response
+Frequency response using the TI OPAx134 SPICE models, and a 10kOhm output impedance device connected, at max volume for a single channel.
+
+- Loss is < 306mdB throught the audible
+- At maximum volume, the max gain is -175 mdB
+- At 20hz, we see the largest damping at -306 mdB
+
+![frequency response](images/frequencyresponse.png)
