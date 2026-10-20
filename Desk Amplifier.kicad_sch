@@ -1919,7 +1919,7 @@
 		)
 		(uuid "18c89aaf-897c-48ef-9b8c-0841cb07627b")
 	)
-	(text "Configured for 5v up to 500mA\nhttps://www.ti.com/lit/an/slyt118/slyt118.pdf"
+	(text "Configured for 5v up to 500mA\nhttps://www.dyc-electronic.com/type-c-cc-pin-configuration/\nhttps://www.ti.com/lit/an/slyt118/slyt118.pdf"
 		(exclude_from_sim no)
 		(at 126.492 150.368 0)
 		(effects
